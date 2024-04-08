@@ -19,9 +19,6 @@ body {
   background-attachment: fixed;
 }
 
-body main {
-}
-
 header {
   display: flex;
   justify-content: center;
