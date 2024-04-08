@@ -1,34 +1,4 @@
-* {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  box-sizing: border-box;
-}
-
-:root {
-  --primary-color-dark: #a33828;
-  --secondary-color-dark: #d85b21;
-  --secondary-color-medium: #e6ab43;
-  --secondary-color-light: #faf8d2;
-}
-
-body {
-  background-color: var(--secondary-color-light);
-  margin: 0;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  height: 75px;
-  width: 100%;
-  background-color: var(--secondary-color-medium);
-}
-
-header h1 {
-  margin: 0;
-  color: var(--primary-color-dark);
-}
+@import url("./global.css");
 
 .quiz-questions {
   display: flex;
