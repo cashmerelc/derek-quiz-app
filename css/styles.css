@@ -43,7 +43,44 @@ header h1 {
 }
 
 .question-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   width: 90%;
   padding: 10px;
   border: 1px solid var(--primary-color-dark);
+  background-color: var(--secondary-color-medium);
+}
+
+.question-card h3 {
+  color: var(--primary-color-dark);
+}
+
+.question-card button {
+  border: 2px solid var(--secondary-color-dark);
+  background-color: var(--primary-color-dark);
+  color: var(--secondary-color-light);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
+  padding: 10px;
+}
+
+.question-card .answer {
+  color: var(--secondary-color-light);
+  font-size: 2em;
+  visibility: hidden;
+}
+
+.question-card .tag-section {
+  display: flex;
+  align-self: flex-start;
+  gap: 5px;
+}
+
+.question-card .tag-section .tag {
+  background-color: var(--secondary-color-dark);
+  border: solid 1px var(--primary-color-dark);
+  border-radius: 5px;
+  padding: 5px;
 }
