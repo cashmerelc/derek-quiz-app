@@ -13,12 +13,13 @@
 body {
   background-color: var(--secondary-color-light);
   margin: 0;
+  background-image: url("../images/big4.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 body main {
-  background-image: url("./images/big4.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 header {
