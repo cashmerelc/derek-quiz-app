@@ -124,6 +124,10 @@
   list-style: none;
 }
 
+section.settings {
+  margin-bottom: 100px;
+}
+
 footer {
   bottom: 0;
   width: 100%;
