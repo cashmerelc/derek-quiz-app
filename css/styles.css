@@ -29,3 +29,21 @@ header h1 {
   margin: 0;
   color: var(--primary-color-dark);
 }
+
+.quiz-questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.quiz-questions:first-child {
+  margin-top: 40px;
+}
+
+.question-card {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid var(--primary-color-dark);
+}
