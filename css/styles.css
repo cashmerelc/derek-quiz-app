@@ -111,3 +111,13 @@ footer nav a.active {
 footer nav a img {
   height: 30px;
 }
+
+@media (orientation: landscape) {
+  .question-card .btn-bookmark {
+    background-size: 50px 50px;
+    right: -375px;
+    top: -20px;
+    height: 50px;
+    width: 50px;
+  }
+}
