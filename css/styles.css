@@ -42,6 +42,10 @@ header h1 {
   margin-top: 40px;
 }
 
+.quiz-questions:last-child {
+  margin-bottom: 70px;
+}
+
 .question-card {
   display: flex;
   flex-direction: column;
