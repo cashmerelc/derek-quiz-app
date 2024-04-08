@@ -116,6 +116,15 @@
   height: 60px;
 }
 
+.settings {
+  margin-top: 50px;
+  color: var(--primary-color-dark);
+}
+
+.settings ul {
+  list-style: none;
+}
+
 footer {
   bottom: 0;
   width: 100%;
