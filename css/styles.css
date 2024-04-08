@@ -64,7 +64,7 @@ header h1 {
   top: -20px;
 } */
 
-.question-card h3 {
+.question-card h2 {
   color: var(--primary-color-dark);
 }
 
