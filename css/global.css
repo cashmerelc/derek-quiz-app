@@ -15,6 +15,12 @@ body {
   margin: 0;
 }
 
+body main {
+  background-image: url("./images/big4.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 header {
   display: flex;
   justify-content: center;
