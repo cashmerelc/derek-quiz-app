@@ -92,6 +92,30 @@
   color: var(--primary-color-dark);
 }
 
+.stat-tags {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 25px;
+}
+
+.stat-tags .stat-num-questions,
+.stat-tags .stat-num-bookmarks {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 25px;
+  padding: 10px;
+  border: 2px solid var(--secondary-color-medium);
+  border-radius: 10px;
+  background-color: var(--secondary-color-dark);
+  color: var(--secondary-color-light);
+  width: 25%;
+}
+
+.stat-tags img {
+  width: 60px;
+  height: 60px;
+}
+
 footer {
   bottom: 0;
   width: 100%;
