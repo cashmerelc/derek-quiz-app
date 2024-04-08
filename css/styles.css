@@ -57,12 +57,12 @@ header h1 {
   background-color: var(--secondary-color-medium);
 }
 
-.question-card img {
+/* .question-card img {
   position: relative;
   height: 40px;
   right: -150px;
   top: -20px;
-}
+} */
 
 .question-card h3 {
   color: var(--primary-color-dark);
