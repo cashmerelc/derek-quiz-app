@@ -68,7 +68,22 @@ header h1 {
   color: var(--primary-color-dark);
 }
 
-.question-card button {
+.question-card .btn-bookmark {
+  cursor: pointer;
+  background-image: url("/images/bookmark.png");
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+  border: none;
+  position: relative;
+  height: 40px;
+  right: -150px;
+  top: -20px;
+}
+
+.question-card .btn-show-answer {
   border: 2px solid var(--secondary-color-dark);
   background-color: var(--primary-color-dark);
   color: var(--secondary-color-light);
@@ -102,6 +117,7 @@ footer {
   height: 50px;
   position: fixed;
   border-top: 2px solid black;
+  border-bottom: 2px solid black;
   background-color: var(--primary-color-dark);
 }
 
