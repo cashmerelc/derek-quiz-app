@@ -101,9 +101,8 @@
 .stat-tags .stat-num-questions,
 .stat-tags .stat-num-bookmarks {
   display: flex;
-  justify-content: space-evenly;
-  gap: 25px;
-  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
   border: 2px solid var(--secondary-color-medium);
   border-radius: 10px;
   background-color: var(--secondary-color-dark);
@@ -112,8 +111,8 @@
 }
 
 .stat-tags img {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
 }
 
 .settings {
