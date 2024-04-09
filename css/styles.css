@@ -62,6 +62,12 @@
   visibility: hidden;
 }
 
+.question-card:first-child .answer {
+  color: var(--secondary-color-light);
+  font-size: 2em;
+  visibility: visible;
+}
+
 .question-card .tag-section {
   display: flex;
   align-self: flex-start;
