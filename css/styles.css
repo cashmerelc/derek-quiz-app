@@ -50,6 +50,7 @@
 }
 
 .question-card .btn-show-answer {
+  cursor: pointer;
   border: 2px solid var(--secondary-color-dark);
   background-color: var(--primary-color-dark);
   color: var(--secondary-color-light);
