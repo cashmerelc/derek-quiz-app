@@ -35,10 +35,11 @@
 
 .question-card .btn-bookmark {
   cursor: pointer;
-  background-image: url("/images/bookmark.png");
+  /* background-image: url("/images/bookmark.png");
   background-repeat: no-repeat;
+  background-color: transparent; */
+  background: transparent url("/images/bookmark.png") no-repeat;
   background-size: 40px 40px;
-  background-color: transparent;
   height: 40px;
   width: 40px;
   border: none;
