@@ -13,10 +13,10 @@
 body {
   background-color: var(--secondary-color-light);
   margin: 0;
-  background-image: url("../images/big4.jpeg");
+  /* background-image: url("../images/big4.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
 
 header {
