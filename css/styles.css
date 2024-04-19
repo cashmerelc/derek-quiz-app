@@ -1,4 +1,5 @@
 @import url("./global.css");
+@import url("./add_questions.css");
 
 .quiz-questions {
   display: flex;
