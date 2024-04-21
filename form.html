@@ -13,7 +13,7 @@
     </header>
     <main>
       <section class="add-form">
-        <form action="">
+        <form action="" data-js="form">
           <label for="new-question">Your question:</label>
           <textarea
             name="new-question"
@@ -33,6 +33,7 @@
           <button type="submit">Submit</button>
         </form>
       </section>
+      <section class="quiz-questions" data-js="new-cards"></section>
     </main>
     <footer>
       <nav>
@@ -53,5 +54,7 @@
         /></a>
       </nav>
     </footer>
+    <script src="./js/script.js"></script>
+    <script src="./js/createcard.js"></script>
   </body>
 </html>
