@@ -18,16 +18,24 @@
           <textarea
             name="new-question"
             id="new-question"
+            data-js="your-question"
             cols="30"
             rows="10"
+            maxlength="150"
           ></textarea>
+          <p class="character-limit" data-js="question-character-limit">
+            150 characters left
+          </p>
           <label for="new-answer">Your answer:</label>
           <textarea
             name="new-answer"
             id="new-answer"
+            data-js="your-answer"
             cols="30"
             rows="10"
+            maxlength="150"
           ></textarea>
+          <p class="character-limit" data-js="answer-character-limit"></p>
           <label for="new-tags">Tag:</label>
           <input type="text" name="new-tags" id="new-tags" />
           <button type="submit">Submit</button>

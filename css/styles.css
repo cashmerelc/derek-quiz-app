@@ -114,6 +114,12 @@
   height: 40px;
 }
 
+.add-form .character-limit {
+  color: red;
+  align-self: flex-end;
+  margin-top: 5px;
+}
+
 .settings {
   margin-top: 50px;
   color: var(--primary-color-dark);
