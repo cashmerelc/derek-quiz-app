@@ -60,3 +60,29 @@ form.addEventListener("submit", (event) => {
   // Add new question card to page below the form
   newCardsSection.append(questionCard);
 });
+
+/* ----------------------------------------------------------------
+                        Display Character Limit
+---------------------------------------------------------------- */
+
+const yourQuestionText = document.querySelector('[data-js="your-question"]');
+const yourAnswerText = document.querySelector('[data-js="your-answer"]');
+const questionCharacterLimit = document.querySelector(
+  '[data-js="question-character-limit"]'
+);
+const answerCharacterLimit = document.querySelector(
+  '[data-js="answer-character-limit"]'
+);
+
+questionCharacterLimit.innerHTML = `150 characters left`;
+answerCharacterLimit.innerHTML = `150 characters left`;
+
+yourQuestionText.addEventListener("input", (event) => {
+  let charactersRemaining = 150 - event.currentTarget.value.length;
+  questionCharacterLimit.innerHTML = `${charactersRemaining} characters left`;
+});
+
+yourAnswerText.addEventListener("input", (event) => {
+  let charactersRemaining = 150 - event.currentTarget.value.length;
+  answerCharacterLimit.textContent = `${charactersRemaining} characters left`;
+});
