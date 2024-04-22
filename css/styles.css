@@ -1,5 +1,6 @@
 @import url("./global.css");
 @import url("./add_questions.css");
+@import url("./bookmarks.css");
 
 .quiz-questions {
   display: flex;
@@ -32,17 +33,6 @@
 
 .question-card h2 {
   color: var(--primary-color-dark);
-}
-
-.question-card .btn-bookmark {
-  cursor: pointer;
-  background-size: 40px 40px;
-  height: 40px;
-  width: 40px;
-  border: none;
-  position: absolute;
-  top: -10px;
-  right: 0;
 }
 
 .question-card .btn-show-answer {
